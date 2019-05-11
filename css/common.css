@@ -64,8 +64,8 @@ h1,h2,h3,h4,h5,h6,p,span,article{
 }
 
 .full-height{
-    display: block;
-    min-height: 100vh;
+    display: flex;
+    min-height: auto;
 }
 
 /* Make blocks fullheight */
@@ -434,6 +434,15 @@ header .device-container .screen img {
     border-radius: 3px
 }
 
+@media (max-width: 1300px) {
+    .ingrid-feature{
+        font-size: 1rem !important;
+    }
+    .green-heading{
+        font-size: 1.5rem !important;
+    }
+}
+
 @media (max-width: 768px) {
     header {
         background: url(../img/bg_pattern.png);
@@ -590,7 +599,7 @@ footer h3{
 .social-buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     padding-bottom: 15px;
 }
 
@@ -701,6 +710,8 @@ footer h3{
     display: block;
     padding-top: 2%;
     padding-bottom: 2%;
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 
@@ -829,13 +840,15 @@ button.swiper-pagination-bullet {
         /*height: 100vh;*/
         perspective: 1px;
     }
+    .btn-outline{
+        margin-top: 25px;
+    }
 }
 
-@media (min-width:768px) {
+@media (min-width: 992px) {
     header {
         min-height: 100%
     }
-
     header .header-content {
         text-align: left;
         padding: 0;
@@ -907,14 +920,19 @@ button.swiper-pagination-bullet {
     -moz-box-shadow: 0px 10px 11px 0px rgba(0, 0, 0, 0.23);
     box-shadow: 0px 10px 11px 0px rgba(0, 0, 0, 0.23);
     z-index: 1;
+    transition: .3s;
 }
-
 
 
 
 .fab-green {
     background: #92B232;
     color: #fff;
+}
+
+.fab-green:hover{
+    background: #80a021;
+
 }
 
 #up img{
@@ -939,6 +957,4 @@ button.swiper-pagination-bullet {
 }
 
 }
-
-
 
