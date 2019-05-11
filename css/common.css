@@ -846,7 +846,9 @@ button.swiper-pagination-bullet {
     header {
         min-height: 100%
     }
-
+    .btn-outline{
+        margin-top: 25px;
+    }
     header .header-content {
         text-align: left;
         padding: 0;
