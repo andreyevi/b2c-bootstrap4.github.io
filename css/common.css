@@ -599,7 +599,7 @@ footer h3{
 .social-buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     padding-bottom: 15px;
 }
 
