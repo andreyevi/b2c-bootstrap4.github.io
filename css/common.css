@@ -64,8 +64,8 @@ h1,h2,h3,h4,h5,h6,p,span,article{
 }
 
 .full-height{
-    display: block;
-    min-height: 100vh;
+    display: flex;
+    min-height: auto;
 }
 
 /* Make blocks fullheight */
