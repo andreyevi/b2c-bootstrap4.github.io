@@ -710,6 +710,8 @@ footer h3{
     display: block;
     padding-top: 2%;
     padding-bottom: 2%;
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 
