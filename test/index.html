@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Dark and Light</title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../fonts/style.css">
+        <link rel="stylesheet" type="text/css" href="../fonts/gotham/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/common.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/swiper.css">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <meta property="og:title" content="INGRID - Додайте Ваш фінальний інгрідієнт" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Ми впроваджуємо новий формат відвідування закладів загального споживання. В нас на меті створити синергію між клієнтом та закладом і враховувати їх проблеми. Завантажуй додаток INGRID з Play Market. Ти власник закладу? Стань нашим партнером!" />
+</head>
+<body>
+ <div class="col-md-4 col-md-offset-3">
+                <div class="article-block" id="brief">
+                    <h1 class="article-brief-heading" >Тренды в ресторанном бизнесе-2019</h1>
+                    <img src="../img/business.jpg" class="img-responsive article-img">
+                    <p class="article-brief">
+                        Вы узнаете: выгодно ли открывать фастфуд на фуд-корте в торговом центре, что для этого нужно и как это лучше сделать, если у вас нет опыта в ресторанном бизнесе...
+                    </p>
+                    <div class="article-buttons">
+                        <a href="article.html" class="btn btn-mini btn-regular">Продолжить чтение</a>
+                    </div>
+                    
+                </div>
+</div>
+
+                <div class="col-md-3">
+                    <div class="article-panel" id="panel-brief">
+                        <h4 class="panel-heading">Популярные статьи</h4>
+                        <ul>
+                            <li class="latest-article-item">Статья 1</li>
+                            <li class="latest-article-item">Статья 1</li>
+                            <li class="latest-article-item">Статья 1</li>
+                            <li class="latest-article-item">Статья 1</li>
+                            <li class="latest-article-item">Статья 1</li>
+                        </ul>
+                    </div>
+
+                    <div class="article-panel" id="panel-brief">
+                            <div class="panel-contacts">
+                            <span class="panel-contacts-label">Ночной режим</span>
+
+                                 <input type="checkbox" id="switch" onclick="switchTheme()" /><label for="switch">Toggle</label>
+                            </div>
+                            
+                        <h4 class="panel-heading">Контакты</h4>
+                        <div class="panel-contacts">
+
+                           
+                            <a href="tel://">+380 93 168-08-68</a>
+
+                           
+                            <a href="tel://">м.Ужгород, вул.Волошина, 19</a>
+
+                            <span class="panel-contacts-label">Возникли вопросы? Напишите нам!</span>
+                            <a href="mailto://">info@ingridme.com</a>
+
+                          
+                            <div class="col-xs-12 col-sm-12 col-md-12  social-buttons">
+                            <a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+                                <span class="social-button__inner">
+                                    <i class="fab fa-facebook-f"></i>
+                                </span>
+                            </a>
+                            <a href="https://instagram.com/ingrid.application" class="social-buttons__button social-button social-button--instagram" aria-label="Instagram">
+                                <span class="social-button__inner">
+                                    <i class="fab fa-instagram"></i>
+                                </span>
+                            </a>
+                            <a href="mailto://info@ingridme.com" class="social-buttons__button social-button social-button--mail" aria-label="Mail">
+                                <span class="social-button__inner">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                            </a>
+                        </div>
+                        </div>
+
+                    </div>
+                    </div> 
+
+
+
+  <ul>
+   <li>
+    <span>Ночь</span>
+    <span>День</span>
+   </li>
+  </ul>
+ <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function(){
+   $('ul').click(function(){
+    $('ul').toggleClass('active')
+    $('div#brief').toggleClass('article-block-in-dark');
+    $('body').toggleClass('dark');
+    $('h1').toggleClass('article-brief-heading-in-dark');
+    $('p').toggleClass('article-brief-in-dark')
+     });
+  })
+ </script>
+</body>
+</html>
