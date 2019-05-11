@@ -840,14 +840,14 @@ button.swiper-pagination-bullet {
         /*height: 100vh;*/
         perspective: 1px;
     }
+    .btn-outline{
+        margin-top: 25px;
+    }
 }
 
 @media (min-width: 992px) {
     header {
         min-height: 100%
-    }
-    .btn-outline{
-        margin-top: 25px;
     }
     header .header-content {
         text-align: left;
