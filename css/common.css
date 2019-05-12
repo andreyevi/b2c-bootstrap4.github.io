@@ -575,6 +575,10 @@ p.ingrid-p {
     font-size: 14pt;
 }
 
+.ingrid-collapse-text:hover {
+color: #212121;
+}
+
 /* Footer */
 footer {
     background: #282828;
