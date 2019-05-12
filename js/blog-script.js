@@ -1,0 +1,10 @@
+$(document).ready(function(){
+   $('ul').click(function(){
+    $('ul').toggleClass('active')
+    $('body').toggleClass('dark')
+    $('.ingrid-brand').toggleClass('ingrid-brand-dark')
+    $('.card').toggleClass('card-dark')
+    $('.card-body').toggleClass('card-body-dark')
+    $('.card-title').toggleClass('card-title-dark')
+   })
+  })
