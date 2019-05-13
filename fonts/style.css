@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?c6z6hs');
-  src:  url('fonts/icomoon.eot?c6z6hs#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?c6z6hs') format('truetype'),
-    url('fonts/icomoon.woff?c6z6hs') format('woff'),
-    url('fonts/icomoon.svg?c6z6hs#icomoon') format('svg');
+  font-family: 'ingrid-icons';
+  src:  url('../fonts/ingrid-icons.eot?3hsrv8');
+  src:  url('../fonts/ingrid-icons.eot?3hsrv8#iefix') format('embedded-opentype'),
+    url('../fonts/ingrid-icons.ttf?3hsrv8') format('truetype'),
+    url('../fonts/ingrid-icons.woff?3hsrv8') format('woff'),
+    url('../fonts/ingrid-icons.svg?3hsrv8#ingrid-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="ic-"], [class*=" ic-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'ingrid-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,39 +24,69 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bell:before {
+.ic-apple:before {
   content: "\e900";
-  color: #92B232;
 }
-.icon-coin:before {
+.ic-arrow:before {
   content: "\e901";
-  color: #92B232;
 }
-.icon-delivery:before {
+.ic-briefcase:before {
   content: "\e902";
-  color: #92B232;
 }
-.icon-feed:before {
+.ic-delivery:before {
   content: "\e903";
   color: #92B232;
 }
-.icon-feedback:before {
+.ic-feed:before {
   content: "\e904";
   color: #92B232;
 }
-.icon-order:before {
+.ic-feedback:before {
+  color: #92B232;
   content: "\e905";
-  color: #92B232;
 }
-.icon-paypass:before {
+.ic-google-play:before {
   content: "\e906";
-  color: #92B232;
 }
-.icon-run:before {
+.ic-ingrid-coin:before {
+  color: #92B232;
   content: "\e907";
-  color: #92B232;
 }
-.icon-logo:before {
+.ic-ingrid-logo:before {
   content: "\e908";
-  color: #fff;
+}
+.ic-ingrid-mini:before {
+  content: "\e909";
+}
+.ic-location:before {
+  content: "\e90a";
+}
+.ic-mail:before {
+  content: "\e90b";
+}
+.ic-moon:before {
+  content: "\e90c";
+}
+.ic-order:before {
+  color: #92B232;
+  content: "\e90d";
+}
+.ic-paypass:before {
+  color: #92B232;
+  content: "\e90e";
+}
+.ic-phone:before {
+  content: "\e90f";
+}
+.ic-run:before {
+  color: #92B232;
+  content: "\e910";
+}
+.ic-time:before {
+  color: #92B232;
+  content: "\e911";
+}
+.ic-waiter:before {
+  color: #92B232;
+  content: "\e912";
 }

@@ -1,6 +1,6 @@
 $(document).ready(function(){
-   $('ul').click(function(){
-    $('ul').toggleClass('active')
+   $('ul.switcher').click(function(){
+    $('ul').toggleClass('switcher-active')
     $('body').toggleClass('dark')
     $('.ingrid-brand').toggleClass('ingrid-brand-dark')
     $('.card').toggleClass('card-dark')

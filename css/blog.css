@@ -99,7 +99,7 @@ body.dark{
 
 
 /* theme switcher */
-ul{
+ul.switcher{
  position:absolute;
  top:20px;
  right:20px;
@@ -114,11 +114,11 @@ ul{
  overflow:hidden;
 }
 
-ul.active{
+ul.switcher-active{
  border-color:#fff;
 }
 
-ul li{
+ul.switcher li.switch-item{
  list-style:none;
  width:100%;
  height:60px;
@@ -127,11 +127,11 @@ ul li{
  transition:0.5s;
 }
 
-ul.active li{
+ul.swithcer-active li.switch-item{
  transform:translateY(-30px);
 }
 
-ul li span{
+ul.switcher li.switch-item span{
  display:block;
  width:100%;
  height:30px;
@@ -140,7 +140,7 @@ ul li span{
  background:#fff;
 }
 
-ul li span:nth-child(1){
+ul.switcher li.switch-item span:nth-child(1){
  background:#262626;
  color:#fff;
 }

@@ -185,6 +185,7 @@ article {
 .btn-promo {
     background: #FCBD20;
     color: #282828;
+    padding: 15px 61px;
 }
 
 .btn-promo:hover,
@@ -210,6 +211,7 @@ article {
 .btn-block {
     display: inline;
 }
+
 
 .cell {
     display: inline;
@@ -572,11 +574,26 @@ p.ingrid-p {
 }
 
 .ingrid-icon {
-    font-size: 30px;
+    font-size: 48px;
     position: relative;
     top: 10px;
     margin-right: 10px;
     fill: #92B232;
+}
+
+.icon{
+    font-size: 48px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px){
+    .icon{
+        font-size: 32px;
+        position: relative;
+        margin-right:5px;
+    }
 }
 
 .feature-block {
@@ -620,6 +637,13 @@ footer h3 {
 /*.footer-right {
     text-align: right;
 }*/
+
+@media screen and(max-width: 768px){
+   .footer-helper{
+    display: flex;
+    flex-direction: row;
+} 
+}
 
 
 .social-buttons {
