@@ -581,6 +581,8 @@ p.ingrid-p {
     fill: #92B232;
 }
 
+
+
 .icon{
     font-size: 48px;
     position: relative;
@@ -753,6 +755,14 @@ footer h3 {
     display: block;
     padding-top: 5%;
     padding-bottom: 5%
+}
+
+@media (max-width: 768px){
+    .feedbacks{
+        display: block;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
 }
 
 .feedback-content {
