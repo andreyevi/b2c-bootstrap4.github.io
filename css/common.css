@@ -581,6 +581,15 @@ p.ingrid-p {
     fill: #92B232;
 }
 
+@media (max-width: 768px){
+  .ingrid-icon {
+    font-size: 48px;
+    position: relative;
+    top: 10px;
+    margin-right: none;
+    fill: #92B232;
+}  
+}
 
 
 .icon{
