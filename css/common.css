@@ -897,9 +897,15 @@ button.swiper-pagination-bullet {
 @media (max-width: 768px) {
     .topnav-logo {
         margin: 8%;
-        font-size: 52px;
+        height: 30px;
     }
 }
+
+.topnav-logo {
+
+        margin: 2%;
+        height: 40px;
+    }   
 
 @media (max-width: 768px) {
     header {

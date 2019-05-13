@@ -54,6 +54,7 @@
 }
 .ic-ingrid-logo:before {
   content: "\e908";
+  color: #fff;
 }
 .ic-ingrid-mini:before {
   content: "\e909";
