@@ -451,6 +451,7 @@ header .device-container .screen img {
         font-size: 1rem !important;
     }
 
+    .heading,
     .green-heading {
         font-size: 1.5rem !important;
     }
@@ -574,16 +575,17 @@ p.ingrid-p {
 }
 
 .ingrid-icon {
-    font-size: 48px;
+    font-size: 2em;
     position: relative;
     top: 10px;
     margin-right: 10px;
     fill: #92B232;
 }
 
+
 @media (max-width: 768px){
   .ingrid-icon {
-    font-size: 48px;
+    font-size: 1.5em;
     position: relative;
     top: 10px;
     margin-right: none;
@@ -791,6 +793,18 @@ footer h3 {
 .feedback-text {
     font-weight: 300;
     font-size: 18pt;
+}
+
+@media (max-width: 768px){
+    .feedback-name {
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.feedback-text {
+    font-weight: 300;
+    font-size: 1.3em;
+}
 }
 
 .feedback-action {
